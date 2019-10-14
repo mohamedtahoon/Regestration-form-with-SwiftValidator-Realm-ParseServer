@@ -19,9 +19,8 @@ class ViewController: UIViewController,ValidationDelegate,UITextFieldDelegate {
     
     let realm = try? Realm()
     var citiesName: Results<WeatherDataModel>?
-    let constants = Constants()
+    let WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
     let apiKey = "f9f89e3f8df9497aef7f3556f912f872"
-    let units = "metric"
     let validator = Validator()
     
     
@@ -100,7 +99,7 @@ class ViewController: UIViewController,ValidationDelegate,UITextFieldDelegate {
         let longtude = String(31.239999999999998)
         let params : [String : String] = ["lat" : latitude , "lon" : longtude , "appId" : apiKey]
         
-        getWeatherData(url: constants.WEATHER_URL ,parameters: params)
+        getWeatherData(url: WEATHER_URL ,parameters: params)
         loadCities()
         
         //        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ViewController.hideKeyboard)))

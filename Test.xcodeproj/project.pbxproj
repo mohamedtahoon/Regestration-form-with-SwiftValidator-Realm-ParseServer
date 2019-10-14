@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B049DD8B32904DD0BBD9E0B /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A967F2944309754DC7C6D4 /* Pods_Test.framework */; };
 		5264C771234B0A2A00500430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264C770234B0A2A00500430 /* AppDelegate.swift */; };
 		5264C773234B0A2A00500430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264C772234B0A2A00500430 /* ViewController.swift */; };
 		5264C776234B0A2A00500430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5264C774234B0A2A00500430 /* Main.storyboard */; };
 		5264C779234B0A2A00500430 /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5264C777234B0A2A00500430 /* Test.xcdatamodeld */; };
 		5264C77B234B0A2B00500430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5264C77A234B0A2B00500430 /* Assets.xcassets */; };
 		5264C77E234B0A2B00500430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5264C77C234B0A2B00500430 /* LaunchScreen.storyboard */; };
+		5264C786234B15BE00500430 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264C785234B15BE00500430 /* CheckBox.swift */; };
+		52730E1C234D6A87001396FF /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52730E1B234D6A87001396FF /* RealmSwift.framework */; };
+		52730E22234D6CF6001396FF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52730E21234D6CF6001396FF /* Data.swift */; };
+		527EE480234BF97A00610A05 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527EE47F234BF97A00610A05 /* iOSDropDown.framework */; };
+		527EE483234C1FB700610A05 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EE482234C1FB700610A05 /* Constants.swift */; };
+		527EE485234C211A00610A05 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527EE484234C211A00610A05 /* SwiftyJSON.framework */; };
+		527EE487234C301300610A05 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EE486234C301300610A05 /* WeatherDataModel.swift */; };
+		52AA40CE2352DBFA009DE7CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA40CD2352DBFA009DE7CC /* Parse.framework */; };
+		52AA40D52352DD8B009DE7CC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA40D42352DD8B009DE7CC /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051B90623192FB07FF5982FC /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		2C6A037A4163CA377D36823C /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		5264C76D234B0A2A00500430 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5264C770234B0A2A00500430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5264C772234B0A2A00500430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,18 @@
 		5264C77A234B0A2B00500430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5264C77D234B0A2B00500430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5264C77F234B0A2B00500430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5264C785234B15BE00500430 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		52730E1B234D6A87001396FF /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52730E21234D6CF6001396FF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		527EE47F234BF97A00610A05 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527EE482234C1FB700610A05 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		527EE484234C211A00610A05 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527EE486234C301300610A05 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		52AA40CD2352DBFA009DE7CC /* Parse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AA40D12352DCE7009DE7CC /* Parse.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Parse.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AA40D42352DD8B009DE7CC /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AA40D82353054E009DE7CC /* SwiftValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A967F2944309754DC7C6D4 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527EE485234C211A00610A05 /* SwiftyJSON.framework in Frameworks */,
+				527EE480234BF97A00610A05 /* iOSDropDown.framework in Frameworks */,
+				52730E1C234D6A87001396FF /* RealmSwift.framework in Frameworks */,
+				52AA40D52352DD8B009DE7CC /* Bolts.framework in Frameworks */,
+				1B049DD8B32904DD0BBD9E0B /* Pods_Test.framework in Frameworks */,
+				52AA40CE2352DBFA009DE7CC /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +72,8 @@
 			children = (
 				5264C76F234B0A2A00500430 /* Test */,
 				5264C76E234B0A2A00500430 /* Products */,
+				A0A515D35AC78BB2A2100AD1 /* Pods */,
+				A79AC5CFDA23B148D1EF9437 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,67 @@
 		5264C76F234B0A2A00500430 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				52730E20234D6CAF001396FF /* View */,
+				52730E1F234D6CA7001396FF /* Model */,
+				527EE481234C1F9900610A05 /* Controller */,
 				5264C770234B0A2A00500430 /* AppDelegate.swift */,
-				5264C772234B0A2A00500430 /* ViewController.swift */,
-				5264C774234B0A2A00500430 /* Main.storyboard */,
 				5264C77A234B0A2B00500430 /* Assets.xcassets */,
-				5264C77C234B0A2B00500430 /* LaunchScreen.storyboard */,
+				5264C785234B15BE00500430 /* CheckBox.swift */,
 				5264C77F234B0A2B00500430 /* Info.plist */,
 				5264C777234B0A2A00500430 /* Test.xcdatamodeld */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		52730E1F234D6CA7001396FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				527EE486234C301300610A05 /* WeatherDataModel.swift */,
+				52730E21234D6CF6001396FF /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52730E20234D6CAF001396FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5264C774234B0A2A00500430 /* Main.storyboard */,
+				5264C77C234B0A2B00500430 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		527EE481234C1F9900610A05 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5264C772234B0A2A00500430 /* ViewController.swift */,
+				527EE482234C1FB700610A05 /* Constants.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A0A515D35AC78BB2A2100AD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C6A037A4163CA377D36823C /* Pods-Test.debug.xcconfig */,
+				051B90623192FB07FF5982FC /* Pods-Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A79AC5CFDA23B148D1EF9437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52AA40D82353054E009DE7CC /* SwiftValidator.framework */,
+				52AA40D42352DD8B009DE7CC /* Bolts.framework */,
+				52AA40D12352DCE7009DE7CC /* Parse.bundle */,
+				52AA40CD2352DBFA009DE7CC /* Parse.framework */,
+				52730E1B234D6A87001396FF /* RealmSwift.framework */,
+				527EE484234C211A00610A05 /* SwiftyJSON.framework */,
+				527EE47F234BF97A00610A05 /* iOSDropDown.framework */,
+				A9A967F2944309754DC7C6D4 /* Pods_Test.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5264C782234B0A2B00500430 /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
+				60CB1501A1D6382B70466AFF /* [CP] Check Pods Manifest.lock */,
 				5264C769234B0A2A00500430 /* Sources */,
 				5264C76A234B0A2A00500430 /* Frameworks */,
 				5264C76B234B0A2A00500430 /* Resources */,
+				6034CBEC85D95ED32B4DA034 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +219,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6034CBEC85D95ED32B4DA034 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60CB1501A1D6382B70466AFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5264C769234B0A2A00500430 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52730E22234D6CF6001396FF /* Data.swift in Sources */,
+				527EE483234C1FB700610A05 /* Constants.swift in Sources */,
+				5264C786234B15BE00500430 /* CheckBox.swift in Sources */,
+				527EE487234C301300610A05 /* WeatherDataModel.swift in Sources */,
 				5264C773234B0A2A00500430 /* ViewController.swift in Sources */,
 				5264C771234B0A2A00500430 /* AppDelegate.swift in Sources */,
 				5264C779234B0A2A00500430 /* Test.xcdatamodeld in Sources */,
@@ -284,6 +435,7 @@
 		};
 		5264C783234B0A2B00500430 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6A037A4163CA377D36823C /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +453,7 @@
 		};
 		5264C784234B0A2B00500430 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051B90623192FB07FF5982FC /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

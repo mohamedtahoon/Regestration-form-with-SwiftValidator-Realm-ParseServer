@@ -1,4 +1,4 @@
-# Regestration-form-with-SwiftValidator-Realm-ParseServer
+# Registration-form-with-SwiftValidator-Realm-ParseServer
 
 
 registration form with SwiftValidator,

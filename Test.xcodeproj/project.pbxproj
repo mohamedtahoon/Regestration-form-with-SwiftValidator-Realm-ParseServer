@@ -18,7 +18,6 @@
 		52730E1C234D6A87001396FF /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52730E1B234D6A87001396FF /* RealmSwift.framework */; };
 		52730E22234D6CF6001396FF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52730E21234D6CF6001396FF /* Data.swift */; };
 		527EE480234BF97A00610A05 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527EE47F234BF97A00610A05 /* iOSDropDown.framework */; };
-		527EE483234C1FB700610A05 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EE482234C1FB700610A05 /* Constants.swift */; };
 		527EE485234C211A00610A05 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527EE484234C211A00610A05 /* SwiftyJSON.framework */; };
 		527EE487234C301300610A05 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EE486234C301300610A05 /* WeatherDataModel.swift */; };
 		52AA40CE2352DBFA009DE7CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA40CD2352DBFA009DE7CC /* Parse.framework */; };
@@ -40,7 +39,6 @@
 		52730E1B234D6A87001396FF /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52730E21234D6CF6001396FF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		527EE47F234BF97A00610A05 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		527EE482234C1FB700610A05 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		527EE484234C211A00610A05 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		527EE486234C301300610A05 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		52AA40CD2352DBFA009DE7CC /* Parse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				5264C772234B0A2A00500430 /* ViewController.swift */,
-				527EE482234C1FB700610A05 /* Constants.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -286,7 +283,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				52730E22234D6CF6001396FF /* Data.swift in Sources */,
-				527EE483234C1FB700610A05 /* Constants.swift in Sources */,
 				5264C786234B15BE00500430 /* CheckBox.swift in Sources */,
 				527EE487234C301300610A05 /* WeatherDataModel.swift in Sources */,
 				5264C773234B0A2A00500430 /* ViewController.swift in Sources */,
